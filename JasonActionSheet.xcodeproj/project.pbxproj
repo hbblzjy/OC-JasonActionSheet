@@ -13,6 +13,7 @@
 		E836E3F01F18B7080008C30C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836E3EE1F18B7080008C30C /* Main.storyboard */; };
 		E836E3F21F18B7080008C30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E836E3F11F18B7080008C30C /* Assets.xcassets */; };
 		E836E3F51F18B7080008C30C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836E3F31F18B7080008C30C /* LaunchScreen.storyboard */; };
+		E836E3FE1F18B9890008C30C /* JasonActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E836E3FD1F18B9890008C30C /* JasonActionSheetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E836E3F11F18B7080008C30C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E836E3F41F18B7080008C30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E836E3F61F18B7080008C30C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E836E3FC1F18B9890008C30C /* JasonActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JasonActionSheetView.h; sourceTree = "<group>"; };
+		E836E3FD1F18B9890008C30C /* JasonActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JasonActionSheetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E836E3F31F18B7080008C30C /* LaunchScreen.storyboard */,
 				E836E3F61F18B7080008C30C /* Info.plist */,
 				E836E3E51F18B7080008C30C /* Supporting Files */,
+				E836E3FC1F18B9890008C30C /* JasonActionSheetView.h */,
+				E836E3FD1F18B9890008C30C /* JasonActionSheetView.m */,
 			);
 			path = JasonActionSheet;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				E836E3ED1F18B7080008C30C /* ViewController.m in Sources */,
 				E836E3EA1F18B7080008C30C /* AppDelegate.m in Sources */,
+				E836E3FE1F18B9890008C30C /* JasonActionSheetView.m in Sources */,
 				E836E3E71F18B7080008C30C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
